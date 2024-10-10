@@ -1,19 +1,20 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import './Projects.css'; // Custom CSS for additional styling
+import './Projects.css';
 
 // Import images from the assets folder
-import ProjectOneImage from '../assets/party.png';
+import ProjectOneImage from '../assets/coffee.png';
 import ProjectTwoImage from '../assets/shpping.png';
-import ProjectThreeImage from '../assets/coffee.png';
-import ProjectFourImage from '../assets/weather.png';
+import ProjectThreeImage from '../assets/party.png';
+import ProjectFourImage from '../assets/Cats Care.png';
+import ProjectFiveImage from '../assets/weather.png';
 
 const projects = [
   {
     title: 'Project One',
-    description: 'For Party Booking.',
+    description: 'Web application for coffee lovers.',
     image: ProjectOneImage, // Use imported image
-    link: 'https://party-booking.netlify.app/'
+    link: 'https://mariocoffee.netlify.app/'
   },
   {
     title: 'Project Two',
@@ -23,14 +24,20 @@ const projects = [
   },
   {
     title: 'Project Three',
-    description: 'Web application for coffee lovers.',
+    description: 'For Party Booking.',
     image: ProjectThreeImage, // Use imported image
-    link: 'https://mariocoffee.netlify.app/'
+    link: 'https://party-booking.netlify.app/'
   },
   {
     title: 'Project Four',
+    description: 'Your go-to resource for expert cat care.',
+    image: ProjectFourImage, 
+    link: 'https://cats-care.netlify.app/'
+  },
+  {
+    title: 'Project Five',
     description: 'Up-to-date weather information easily.',
-    image: ProjectFourImage, // Use imported image
+    image: ProjectFiveImage, 
     link: 'https://weatherhaven.netlify.app/'
   },
 ];
