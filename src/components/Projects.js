@@ -43,7 +43,7 @@ const projects = [
   },
   {
     title: 'Project Six',
-    description: 'Easy Calculator  .',
+    description: 'Your ultimate tool for effortless calculations.',
     image: ProjectSixImage, 
     link: 'https://easycalculatorapp.netlify.app/'
   },
