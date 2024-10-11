@@ -13,19 +13,19 @@ const projects = [
   {
     title: 'Project One',
     description: 'Web application for coffee lovers.',
-    image: ProjectOneImage, // Use imported image
+    image: ProjectOneImage, 
     link: 'https://mariocoffee.netlify.app/'
   },
   {
     title: 'Project Two',
     description: 'For modern e-commerce platform.',
-    image: ProjectTwoImage, // Use imported image
+    image: ProjectTwoImage, 
     link: 'https://happyshopping2.netlify.app/'
   },
   {
     title: 'Project Three',
     description: 'For Party Booking.',
-    image: ProjectThreeImage, // Use imported image
+    image: ProjectThreeImage, 
     link: 'https://party-booking.netlify.app/'
   },
   {
@@ -49,14 +49,16 @@ const Projects = () => (
       <Row>
         {projects.map((project, index) => (
           <Col md={4} key={index} className="mb-4">
-            <Card className="project-card">
-              <Card.Img variant="top" src={project.image} alt={project.title} />
-              <Card.Body>
-                <Card.Title>{project.title}</Card.Title>
-                <Card.Text>{project.description}</Card.Text>
-                <a href={project.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary">View Project</a>
-              </Card.Body>
-            </Card>
+            <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-decoration-none">
+              <Card className="project-card">
+                <Card.Img variant="top" src={project.image} alt={project.title} />
+                <Card.Body>
+                  <Card.Title>{project.title}</Card.Title>
+                  <Card.Text>{project.description}</Card.Text>
+                  <button className="btn btn-primary">View Project</button>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
         ))}
       </Row>

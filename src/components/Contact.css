@@ -30,14 +30,12 @@
   height: 60px;
   font-size: 2rem;
   color: #fff;
-  background-color: #007bff; /* Default background color for icons */
   border-radius: 50%;
-  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Removed background-color transition */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .social-icon:hover {
-  background-color: #0056b3; /* Darker shade for hover effect */
   transform: scale(1.1); /* Slightly larger on hover */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
 }

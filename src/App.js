@@ -7,6 +7,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import ScrollToTopButton from './components/ScrollToTopButton'; // Import the ScrollToTopButton
+import Skills from './components/Skills';
 
 const App = () => (
   <Router>
@@ -14,6 +15,7 @@ const App = () => (
     <div className="main-content">
       <Home />
       <About />
+      <Skills />
       <Projects />
       <Contact />
     </div>
