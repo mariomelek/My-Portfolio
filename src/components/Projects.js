@@ -8,6 +8,7 @@ import ProjectTwoImage from '../assets/shpping.png';
 import ProjectThreeImage from '../assets/party.png';
 import ProjectFourImage from '../assets/Cats Care.png';
 import ProjectFiveImage from '../assets/weather.png';
+import ProjectSixImage from '../assets/Calculator.png';
 
 const projects = [
   {
@@ -39,6 +40,12 @@ const projects = [
     description: 'Up-to-date weather information easily.',
     image: ProjectFiveImage, 
     link: 'https://weatherhaven.netlify.app/'
+  },
+  {
+    title: 'Project Six',
+    description: 'Easy Calculator  .',
+    image: ProjectSixImage, 
+    link: 'https://easycalculatorapp.netlify.app/'
   },
 ];
 
