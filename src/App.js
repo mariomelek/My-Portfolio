@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import ScrollToTopButton from './components/ScrollToTopButton'; // Import the ScrollToTopButton
 import Skills from './components/Skills';
+import LeafletMap from './components/LeafletMap';
 
 const App = () => (
   <Router>
@@ -18,6 +19,7 @@ const App = () => (
       <Skills />
       <Projects />
       <Contact />
+      <LeafletMap />
     </div>
     <Footer />
     <ScrollToTopButton /> {/* Add the ScrollToTopButton */}

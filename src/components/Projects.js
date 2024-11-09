@@ -9,6 +9,8 @@ import ProjectThreeImage from '../assets/party.png';
 import ProjectFourImage from '../assets/Cats Care.png';
 import ProjectFiveImage from '../assets/weather.png';
 import ProjectSixImage from '../assets/Calculator.png';
+import ProjectSevenImage from '../assets/todolist.png';
+import ProjectEightImage from '../assets/movie.png';
 
 const projects = [
   {
@@ -46,6 +48,18 @@ const projects = [
     description: 'Your ultimate tool for effortless calculations.',
     image: ProjectSixImage, 
     link: 'https://easycalculatorapp.netlify.app/'
+  },
+  {
+    title: 'Project Seven',
+    description: 'Keep track of tasks and boost productivity.',
+    image: ProjectSevenImage, 
+    link: 'https://modern-to-do-list.netlify.app/'
+  },
+  {
+    title: 'Project Eight',
+    description: 'Discover movies, track favorites, entertained.',
+    image: ProjectEightImage, 
+    link: 'https://nightmovies.netlify.app/'
   },
 ];
 
