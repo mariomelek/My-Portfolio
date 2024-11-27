@@ -59,7 +59,7 @@ const projects = [
     title: 'Project Eight',
     description: 'Discover movies, track favorites, entertained.',
     image: ProjectEightImage, 
-    link: 'https://nightmovies.netlify.app/'
+    link: 'https://movieclicking.netlify.app/'
   },
 ];
 
